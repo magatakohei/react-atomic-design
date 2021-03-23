@@ -3,7 +3,7 @@ import { BaseButton } from "./BaseButton";
 
 export const SecondaryButton = (props) => {
   const { children, onClick } = props;
-  return <SButton onClick={onClic}>{children}</SButton>;
+  return <SButton onClick={onClick}>{children}</SButton>;
 };
 
 const SButton = styled(BaseButton)`
